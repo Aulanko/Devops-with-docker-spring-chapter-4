@@ -1,4 +1,11 @@
 services:
+
+  express-app:
+    image: icelyx/express-app
+    ports:
+      - "3000:3000"
+
+
   watchtower:
     image: nickfedor/watchtower
     environment:
